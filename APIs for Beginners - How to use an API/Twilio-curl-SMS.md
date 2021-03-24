@@ -19,13 +19,13 @@ Could not resolve host
   
 Was able to overcome these issues by making the following changes:
   
-  curl **"**https://api.twilio.com/2010-04-01/Accounts/XXXXXXXX/Messages.json**"** -X POST **^**
---data-urlencode **"**To=+XXXXXXXXXXX**"** **^**
---data-urlencode **"** MessagingServiceSid=MGcXXXXXXXXXXXXXXX **"** **^**
---data-urlencode **"** Body=TEST THROUGH CURL**" ** **^**
+  curl "https://api.twilio.com/2010-04-01/Accounts/XXXXXXXX/Messages.json" -X POST ^
+--data-urlencode "To=+XXXXXXXXXXX" ^
+--data-urlencode " MessagingServiceSid=MGcXXXXXXXXXXXXXXX" ^
+--data-urlencode " Body=TEST THROUGH CURL" ^
 -u XXXXXX:XXXXXXX
 
-Needed to replace all single quotations to double quoatations, the forward slash to caret
+Needed to replace all single quotations to double quoatations, and the forward slashes to carets
 
 
 
