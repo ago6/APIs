@@ -14,7 +14,7 @@ URL using bad/illegal format or missing url
 
 Could not resolve host
 
-<!--
+<p>
 <html>
   <head><title>400 Bad Request</title></head>
   <body>
@@ -22,7 +22,7 @@ Could not resolve host
     <hr><center>openresty</center>
   </body>
   </html>
--->
+</p>
   
   
   Was able to overcome these issues by making the following changes:
