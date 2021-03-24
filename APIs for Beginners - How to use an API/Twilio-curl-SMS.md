@@ -14,18 +14,10 @@ URL using bad/illegal format or missing url
 
 Could not resolve host
 
-
-"<html>
-  <head><title>400 Bad Request</title></head>
-  <body>
-    <center><h1>400 Bad Request</h1></center>
-    <hr><center>openresty</center>
-  </body>
-  </html>"
+400 Bad Request
 
   
-  
-  Was able to overcome these issues by making the following changes:
+Was able to overcome these issues by making the following changes:
   
   curl **"**https://api.twilio.com/2010-04-01/Accounts/XXXXXXXX/Messages.json**"** -X POST **^**
 --data-urlencode **"**To=+XXXXXXXXXXX**"** **^**
