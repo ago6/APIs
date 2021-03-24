@@ -14,15 +14,15 @@ URL using bad/illegal format or missing url
 
 Could not resolve host
 
-<p>
-<html>
+
+"<html>
   <head><title>400 Bad Request</title></head>
   <body>
     <center><h1>400 Bad Request</h1></center>
     <hr><center>openresty</center>
   </body>
-  </html>
-</p>
+  </html>"
+
   
   
   Was able to overcome these issues by making the following changes:
